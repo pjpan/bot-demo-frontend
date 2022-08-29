@@ -1,5 +1,5 @@
 # node 版本号
-FROM node:15-apline
+FROM node:16.16.0-alpine3.15
 
 COPY package*.json ./
 ENV NODE_PATH=/node_modules
