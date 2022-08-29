@@ -17,7 +17,7 @@ export const defaultQuickReplies = [
 		icon: 'search',
 	},
 	{
-		name: 'rasa有哪些接口？',
+		name: '权益是什么？',
 		icon: 'search',
 	},
 ];

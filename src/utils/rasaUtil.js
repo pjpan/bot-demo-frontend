@@ -9,7 +9,7 @@ export const postToRasa = async (userInput) => {
 	).then(function (response) {
 		return response.data
 	}).catch(function (error) {
-		return [{'text': '使者遭遇了 Boss，请稍后再试～', 'recipient_id': '123'}]
+		return [{'text': '小瓦小瓦 遭遇了短路，请稍后再试～', 'recipient_id': '123'}]
 	})
 }
 

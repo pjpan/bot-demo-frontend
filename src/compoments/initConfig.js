@@ -1,17 +1,17 @@
-import botAvatar from '../assets/sara_avatar.png'
+import botAvatar from '../assets/nio_logo.png'
 import userAvatar from '../assets/userAvatar.jpg'
 import {defaultQuickReplies} from "./quickReplys";
 import {createTextBotMsg} from "../utils/msgManager";
 
 
 const initialMessages = [
-	createTextBotMsg('光能使者进入对话，为你服务！', 'system'),
+	createTextBotMsg('小瓦小瓦进入对话，为你服务！', 'system'),
 	createTextBotMsg('久等了，你可以随便问问问哦！'),
 ];
 
 function initNavBar() {
 	return {
-		title: 'Posa助理'
+		title: 'PE-Assistant助理'
 	}
 }
 
