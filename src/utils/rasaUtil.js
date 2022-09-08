@@ -1,7 +1,8 @@
 import axios from "axios";
 import {createCardMsg, createImgBotMsg, createTextBotMsg} from "./msgManager";
 
-const RasaRestUrl = 'http://0.0.0.0:5005/webhooks/rest/webhook'
+const RasaRestUrl = 'http://localhost:5005/webhooks/rest/webhook'
+//const RasaRestUrl = 'http://backend:5005/webhooks/rest/webhook'
 export const postToRasa = async (userInput) => {
 
 	return await axios.post(RasaRestUrl,
